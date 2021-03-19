@@ -17,3 +17,8 @@ Pada Intent Result ini dapat mengirim data ke activity lainnya (pindah halaman d
 # Contoh Penerapan Intent
 Tampilan teks yang ingin dimasukkan, yang nantinya akan dikirim dan ditampilkan di activity lainnya. Button "save name" untuk menyimpan data teks yang akan dikirimkan pada halaman activity kedua.
 
+![WhatsApp Image 2021-03-19 at 14 28 31](https://user-images.githubusercontent.com/60589822/111749297-258e9180-88c4-11eb-9a81-748084f145de.jpeg)
+
+Tampilan teks yang dikirim dari activity pertama, kemudian button "edit name" untuk menyunting teks yang kemudian akan dialihkan pada halaman activity petama.
+
+![WhatsApp Image 2021-03-19 at 14 28 32](https://user-images.githubusercontent.com/60589822/111749314-2aebdc00-88c4-11eb-89f8-bb722fb1cf4f.jpeg)
