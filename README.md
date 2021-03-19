@@ -8,7 +8,12 @@ Intent merupakan suatu objek yang terdapat dalam suatu activity dimana objek ter
 
 Ada tiga penggunaan umum intent :
 
-Memindahkan satu activity ke activity lain dengan atau tidak membawa data.
-Menjalankan background service, misalnya melakukan sinkronisasi ke server dan menjalankan proses berulang (periodic/scheduler task).
-Mengirimkan obyek broadcast ke aplikasi yang membutuhkan. Misal, ketika aplikasi membutuhkan proses menjalankan sebuah background service setiap kali aplikasi selesai melakukan booting. Aplikasi harus bisa menerima obyek broadcast yang dikirimkan oleh sistem Android untuk event booting tersebut.
+- [x] Memindahkan satu activity ke activity lain dengan atau tidak membawa data.
+- [x] Menjalankan background service, misalnya melakukan sinkronisasi ke server dan menjalankan proses berulang (periodic/scheduler task).
+- [x] Mengirimkan obyek broadcast ke aplikasi yang membutuhkan. Misal, ketika aplikasi membutuhkan proses menjalankan sebuah background service setiap kali aplikasi selesai melakukan booting. Aplikasi harus bisa menerima obyek broadcast yang dikirimkan oleh sistem Android untuk event booting tersebut.
+
 Pada Intent Result ini dapat mengirim data ke activity lainnya (pindah halaman dengan membawa data) . Ada 2 cara untuk mengirimkan data/nilai antar activity didalam aplikasi Android, yaitu dengan menggunakan Intent dan Bundle, keduanya mempunyai fungsi yang sama, yaitu untuk passing data, tetapi dengan menggunakan Bundle, akan terlihat lebih rapi, karena dikemas terlebuh dahulu didalam bundle sebelum dikirimkan.
+
+# Contoh Penerapan Intent
+Tampilan teks yang ingin dimasukkan, yang nantinya akan dikirim dan ditampilkan di activity lainnya. Button "save name" untuk menyimpan data teks yang akan dikirimkan pada halaman activity kedua.
+
