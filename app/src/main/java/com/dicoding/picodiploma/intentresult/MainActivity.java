@@ -28,12 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_edit)
     public void onViewClicked() {
-        Intent intent = new Intent(MainActivity.this, EditNameActivity.class);
+        Intent intent = new Intent(this, EditNameActivity.class);
         startActivityForResult(intent, RC_EDIT_NAME);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_EDIT_NAME && resultCode == RESULT_OK) {
             String name =
                     data.getExtras().getString(EditNameActivity.EXTRA_NAME);

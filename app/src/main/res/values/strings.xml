@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IntentResult</string>
+    <string name="save_name">Save Name</string>
 </resources>

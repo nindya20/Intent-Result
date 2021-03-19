@@ -18,7 +18,6 @@ public class EditNameActivity extends AppCompatActivity {
     EditText editText2;
     @BindView(R.id.btn_save)
     Button btnSave;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
